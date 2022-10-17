@@ -28,13 +28,13 @@ h4 {
     color: #ad8854;
 }
 
-.topcard {
+#topcard {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.title {
+#title {
     width: 400px;
     height: 150px;
     margin-left: auto;
@@ -46,7 +46,7 @@ h4 {
     border-radius: 24px;
 }
 
-.details {
+#details {
     margin-left: auto;
     margin-right: auto;
     width: 400px;
@@ -58,7 +58,7 @@ h4 {
     border-radius: 24px;
 }
 
-.PersonalStatement {
+#PersonalStatement {
     margin-left: auto;
     margin-right: auto;
     background: #fee8ce;
@@ -67,7 +67,7 @@ h4 {
     border-radius: 24px;
 }
 
-.skills {
+#skills {
     width: 700px;
     margin-left: auto;
     margin-right: auto;
@@ -77,7 +77,7 @@ h4 {
     border-radius: 24px;
 }
 
-.work {
+#work {
     width: 700px;
     margin-left: auto;
     margin-right: auto;
@@ -87,7 +87,7 @@ h4 {
     border-radius: 24px;
 }
 
-.SU {
+#SU {
     width: 600px;
     border-radius: 24px;
     padding-bottom: 1px;
@@ -99,7 +99,7 @@ h4 {
     border-bottom: 6px solid #e9b6b6;
 }
 
-.destvin {
+#destvin {
     width: 600px;
     border-radius: 24px;
     padding-bottom: 1px;
@@ -111,7 +111,7 @@ h4 {
     border-bottom: 6px solid #e9b6b6;
 }
 
-.music {
+#music {
     width: 600px;
     border-radius: 24px;
     padding-bottom: 1px;
@@ -123,7 +123,7 @@ h4 {
     border-bottom: 6px solid #e9b6b6;
 }
 
-.education {
+#education {
     width: 700px;
     margin-left: auto;
     margin-right: auto;
@@ -133,7 +133,7 @@ h4 {
     border-radius: 24px;
 }
 
-.uni {
+#uni {
     width: 600px;
     border-radius: 24px;
     padding-bottom: 1px;
@@ -145,7 +145,7 @@ h4 {
     border-bottom: 6px solid #e9b6b6;
 }
 
-.college {
+#college {
     width: 600px;
     border-radius: 24px;
     padding-bottom: 1px;
@@ -157,7 +157,7 @@ h4 {
     border-bottom: 6px solid #e9b6b6;
 }
 
-.hs {
+#hs {
     width: 600px;
     border-radius: 24px;
     padding-bottom: 1px;
