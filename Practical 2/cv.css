@@ -1,8 +1,9 @@
 body {
-    padding: 10px;
+    margin: 0px;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background:#fef2ce;
+    overflow: auto;
 }
 
 img {
@@ -20,7 +21,7 @@ ul {
     text-align: left;
 }
 
-h1, h2, h3 {
+h1, h2, h3, nav {
     color: #ad5454;
 }
 
@@ -28,10 +29,41 @@ h4 {
     color: #ad8854;
 }
 
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+    margin-bottom: 10px;
+    background-color:#fecece;
+    font-size: large;
+    font-weight: bolder;
+    display: inline;
+    overflow: hidden;
+    float: left;
+}
+
+a{
+    display: block;
+    padding: 8px;
+}
+
+.navbar a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    background-color: #ad5454;
+}
+
 #topcard {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 #title {
