@@ -34,35 +34,6 @@ h4 {
     color: #ad8854;
 }
 
-/*a{
-    display: block;
-    padding: 8px;
-}
-
-.navbar{
-    margin: 0;
-    padding: 0; 
-    margin-bottom: 10px;
-    background-color:#fecece;
-    font-size: large;
-    font-weight: bolder;
-    display: inline;
-    overflow: hidden;
-    float: left;
-}
-
-.navbar a{
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.navbar a:hover{
-    background-color: #ad5454;
-}*/
-
 .navbar{
     overflow: hidden;
     background-color: #fecece;
@@ -108,7 +79,7 @@ h4 {
 
 .dropdown-content a{
     float: none;
-    color: black;
+    color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
