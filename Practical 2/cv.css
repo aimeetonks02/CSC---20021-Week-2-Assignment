@@ -22,6 +22,10 @@ ul {
     display: inline;
 }
 
+li{
+    margin-bottom: 5px;
+}
+
 h1, h2, h3, nav {
     color: #ad5454;
 }
@@ -30,7 +34,7 @@ h4 {
     color: #ad8854;
 }
 
-a{
+/*a{
     display: block;
     padding: 8px;
 }
@@ -57,6 +61,66 @@ a{
 
 .navbar a:hover{
     background-color: #ad5454;
+}*/
+
+.navbar{
+    overflow: hidden;
+    background-color: #fecece;
+    margin-bottom: 10px;
+}
+
+.navbar a{
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown{
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn{
+    background-color: #ad5454;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #fecece;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a{
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover{
+    background-color: #ad5454;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
 }
 
 #topcard {
@@ -116,6 +180,8 @@ a{
     border-radius: 24px;
     padding-bottom: 1px;
     padding-top: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
     margin-left: auto;
     margin-right: auto;
     background: #e8cfb3;
@@ -133,18 +199,6 @@ a{
     border-radius: 24px;
 }
 
-#SU {
-    
-}
-
-#destvin {
-
-}
-
-#music {
-
-}
-
 #education {
     width: 700px;
     margin-left: auto;
@@ -153,16 +207,4 @@ a{
     color: #2b2839;
     border-bottom: 6px solid #fecece;
     border-radius: 24px;
-}
-
-#uni {
-
-}
-
-#college {
-
-}
-
-#hs {
-
 }
